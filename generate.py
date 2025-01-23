@@ -1,6 +1,7 @@
 import qrcode
 
 data = "https://ifoxcode.com/"
+#data = f"WIFI:T:WEP;S:iFox-Code;P:TfNLFc3d9aV0QvoN2scq;;"
 
 # Création d'une instance de QRCode
 qr = qrcode.QRCode(
