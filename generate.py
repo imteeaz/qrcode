@@ -1,6 +1,17 @@
 import qrcode
 
-data = "https://ifoxcode.com/"
+#data = "https://ifoxcode.com/"
+#data = f"WIFI:T:WEP;S:iFox-Code;P:password;;"
+data = """BEGIN:VCARD
+VERSION:3.0
+N:Rajabalee;Imteeaz;;;
+FN:Imteeaz Rajabalee
+ORG:iFox Code
+TITLE:CEO/CTO
+TEL;TYPE=CELL:+23059417518
+EMAIL:imteeaz@ifoxcode.com
+URL:https://ifoxcode.com
+END:VCARD"""
 
 # Création d'une instance de QRCode
 qr = qrcode.QRCode(
